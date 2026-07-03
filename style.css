@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+     font-family: "Oswald", sans-serif;
+  }
+  .header {
+    background-color: crimson;
+    padding: 5px;
+display:flex;
+align-items: center;
+justify-content: space-between;
+  }
+.lin a {
+color: rgb(7, 224, 231);
+padding:0 10px;
+text-decoration:none ;
+}
+.lin a:hover {
+color: rgb(91, 165, 42);
+background-color: #e57171 ;
+border-radius:15px ;
+}
+.btn{
+  background-color: chocolate;
+  color: blanchedalmond;
+  border: none;
+ border-radius:15px ;
+  padding:5px 15px ;
+}
+
+.btn:hover{
+  background-color: coral;
+}
+.landing{
+  background-color: crimson;
+  display:flex ;
+  justify-content: space-between;
+ align-items: center;
+  padding: 5px;
+  color: aliceblue;
+  border-radius: 0 0 30px 30px;
+}
+.landing-left section{
+  width: 400px;
+}
+.landing-search  input {
+border-radius: 50px ;
+border: none;
+outline: none;
+height: 30px ;
+padding:0 10px;
+align-items: center;
+}
+.landing-search button{
+  position: absolute;
+  height: 28px;
+  align-items: center;
+}
+.landing-img img{
+  border-radius: 20px;
+}
+.treanding-contener{
+  padding: 50px 25px ;
+}
+.treanding-contener span {
+font-size: 14px;
+  color: #e57171;
+}
+.treanding-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.treanding-header h1{
+  margin: 0px;
+}
+.card{
+  width: 200px;
+background-color: antiquewhite;
+border-radius: 20px;
+}
+.card .tumb {
+  width: 200px;
+  border-radius:20px 20px 0 0 ;
+}
+.card-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  align-items: center;
+}
+
+.card-info img{
+  width:40px ;
+}
+.treanding-cards{
+  display: flex;
+  gap: 80px;
+}
+
+.mostplayed-contener{
+  padding: 50px 25px ;
+  background-color: beige;
+  border-radius: 20px;
+  width:400;
+}
+.mostplayed-contener span {
+font-size: 14px;
+  color: #e57171;
+}
+.mostplayed-header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.mostplayed-header h2{
+  margin: 0px;
+}
+.most-card{
+  width: 100px;
+border-radius: 20px;
+}
+.most-card .most-tumb {
+  width: 100px;
+  border-radius:20px 20px ;
+}
+.most-card-info{
+  display:flex;
+  justify-content:space-between;
+  padding: 5px 15px;
+  align-items: center;
+}
+
+.most-card-info img{
+  width:40px ;
+
+}
+.most-card-info button {
+justify-content:end;
+}
+.mostplayed-cards{
+  display:flex;
+  gap: 50px;
+  padding:20px ;
+  border-radius: 20px;
+}
